@@ -1,0 +1,44 @@
+ /*=============SERCIVESS PART START============= */ 
+ .service_bg{
+     position: relative;
+     margin-top: 100px;
+     z-index: 9;
+     .service_vactor{
+        position: absolute;
+        left: -181px;
+        bottom: -87px;
+        z-index: -1;
+         img{
+             width: 100%;
+         }
+     }
+     .service_header{
+         h3{
+            font-family: var(--main_font);
+            color: var(--heading_color);
+            text-transform: capitalize;
+            font-size: 38px;
+            margin: 15px 0;
+         }
+     }
+     .service_img{
+         margin-top: 30px;
+     }
+     .service_text{
+         h4{
+             font-family: var(--main_font);
+             color: var(--heading_color);
+             text-transform: capitalize;
+             font-size: 20px;
+             margin: 15px 0;
+         }
+         p{
+             text-transform: capitalize;
+             line-height: 22px;
+             padding: 0 77px;
+             color: var(--para);
+             font-family: var(--other_font);
+         }
+     }
+ }
+/*=============SERCIVESS PART ENDS============= */ 

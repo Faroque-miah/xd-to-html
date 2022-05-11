@@ -1,0 +1,47 @@
+
+/*=============ABOUT PART START============= */ 
+.about_bg{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    // background: linear-gradient(180deg, rgba(61, 27, 27, 0) 0%, rgba(150, 152, 78, 0.63) 109.08%);
+    .about_text{
+        font-family: var(--main_font);
+        font-weight: 700px;
+        color: var(--heading_color);
+        text-transform: capitalize;
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    .about_texte{
+        .bactor_imge{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -99;
+        }
+        h3{
+            font-family: var(--main_font);
+            font-weight: 700px;
+            color: var(--heading_color);
+            text-transform: capitalize;
+            margin-bottom: 15px;
+            font-size: 40px;
+        }
+        p{
+            text-transform: capitalize;
+            color: var(--para_color);
+            font-family: var(--other_font);
+            line-height: 22px;
+            &:last-of-type{
+                margin-bottom: 30px;
+                margin-top: 10px;
+            }
+        }
+       
+    
+    }
+}
+/*=============ABOUT PART ENDS============= */ 

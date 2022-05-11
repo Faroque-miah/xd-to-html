@@ -1,0 +1,32 @@
+
+/*=============HEADER PART START============= */ 
+#main_nav{
+    border-bottom: 2px solid var(--heading_color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:99;
+    .navbar-brand{
+        span{
+            color: #DB7137;
+            font-size: 25px;
+            font-family: 'Palette Mosaic', cursive;;
+        }
+    }
+    .nabb{
+        li{
+            margin-left: 15px;
+            a{
+                padding-left: 0;
+                padding-right: 0;
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color:var(--white);
+            }
+        }
+    }
+}
+/*=============HEADER PART ENDS============= */ 

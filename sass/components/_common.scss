@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+:root{
+    --main_font:'Oswald', sans-serif;
+    --other_font:'Roboto Condensed', sans-serif;
+    --white:#fff;
+    --green:#1d0ac9;
+    --heading_color:#DB7137;
+    --orange:#DB7137;
+    --para_color:rgb(165, 157, 157);
+}
+
+//  body{
+//     background: linear-gradient(180deg, #EF775D 0%, rgba(93, 204, 239, 0) 100%);
+//     background-blend-mode: darken;
+    
+//  }
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8;
+}
+P{
+    font-size: 18px;
+    font-weight: 400;
+}
+.sec_padding{
+    padding: 80px 0;
+}
+.btn{
+    background-color: var(--heading_color);
+    text-align: center;
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border-radius: 0;
+    border: none;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--main_font);
+    text-transform: uppercase;
+    transition: all linear 0.4s;
+    &:hover{
+        background-color: var(--white);
+        color: var(--heading_color);
+    }
+}
